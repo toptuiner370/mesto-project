@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mesto</title>
+    <link rel="stylesheet" href="./inedex.css">
+</head>
+
+<body class="page">
+    <div class="content">
+        <header class="header">
+            <img src="./image/Vector.svg" alt="лого" class="header__logo">
+        </header>
+        <main class="main">
+            <section class="profile">
+                <img src="./image/avatar.png" alt="аватар" class="profile__avatar-img">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button class="profile__button-edit" type="button"></button>
+                    <p class="proflile__profession">Исследователь океана</p>
+                </div>
+                <button class="profile__button-add" type="button"></button>
+            </section>
+            <section class="elemets">
+                <ul class="elemets__list">
+                    <li class="elemets__element">
+                        <img src="./image/hram.jpg" alt="храм" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Карачаевск</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elemets__element">
+                        <img src="./image/Gora.jpg" alt="гора" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Гора Эльбрус</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elemets__element">
+                        <img src="./image/Dombay.jpg" alt="домбай" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Домбай</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elemets__element">
+                        <img src="./image/Gora.jpg" alt="гора другая" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Гора Эльбрус</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elemets__element">
+                        <img src="./image/Dombay.jpg" alt="домбай другой" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Домбай</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elemets__element">
+                        <img src="./image/hram.jpg" alt="храм другой" class="elements__image">
+                        <div class="elements__info">
+                            <h2 class="elements__caption">Карачаево</h2>
+                            <button class="elements__like" type="button"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__signature">© 2022 Mesto Russia</p>
+        </footer>
+
+        <div class="popup  popup_open">
+            <div class="popup__container">
+                <form class="popup__form" name="name">
+                    <h2 class="popup__title">Редактировать профиль</h2>
+                    <fieldset class="popup__fieldset">
+                        <input type="text" class="popup__input" id="name" placeholder="Жак-Ив Кусто">
+                        <input type="text" class="popup__input" id="description" placeholder="Исследователь океана">
+                    </fieldset>
+                    <button class="popup__btn-save" type="submit" title="сохранить">сохранить</button>
+                </form>
+                <button class="popup__btn-close" type="button" title="закрыть"></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

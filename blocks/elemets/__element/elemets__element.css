@@ -1,0 +1,6 @@
+.elemets__element{
+    display: flex;
+    list-style-type: none;
+    max-width: 282px;
+    flex-direction: column;
+}
